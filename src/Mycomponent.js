@@ -7,7 +7,7 @@ const style = {
 };
 const MyComponent = () => (
   <div>
-    <RaisedButton label="Primary" primary={true} style={style} />
+    <RaisedButton label="Update" primary={true} style={style} />
   </div>
 );
 

@@ -30,7 +30,7 @@ class MobileTearSheet extends Component {
       },
       container: {
         border: 'solid 1px #d9d9d9',
-        borderBottom: 'none',
+        borderBottom: 'solid 1px #d9d9d9',
         height: this.props.height,
         overflow: 'hidden',
       },
@@ -47,7 +47,7 @@ class MobileTearSheet extends Component {
         <div style={prepareStyles(styles.container)}>
           {this.props.children}
         </div>
-        <img style={prepareStyles(styles.bottomTear)} src="images/bottom-tear.svg" />
+         { /* <img style={prepareStyles(styles.bottomTear)} src="images/bottom-tear.svg" /> */ }
       </div>
     );
   }
